@@ -1,9 +1,9 @@
- let ingreseNombre= prompt("Bienvenido al stock de Zappa, Ingrese su nombre por favor.");
+ let ingreseNombre= prompt("Bienvenido al Stock de Zappa, Ingrese su nombre por favor.");
 
 
 
 function saludar (nombre) {
-    alert ("Hola" + " " +  nombre + " " + "nos complace ayudarte. Precione Aceptar para continuar");
+    alert ("Hola" + " " +  nombre + " " + "nos complace tenerte aqui. Precione Aceptar para continuar.");
     alert ("En este momento contamos con Stcok de zapatillas: Vnas Knu Green y Vans Knu Black. Presione Aceptar si desea uno de estos pares.");
 
 }
@@ -21,34 +21,6 @@ function verificarOpcion(opcion) {
 let opcionUsuario = prompt("Por favor, elija entre Vans Knu Black y Vans Knu Green.");
 let mensaje = verificarOpcion(opcionUsuario);
 alert(mensaje);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Necesito, saludar a la persona, luego pedirle que tipo de zapatillas quiere, si no ingresa una de las dos opciones que se salga otro reintento, luego de esto preguntarle que talle prediere y por ultimo decirle Gracias.*/
-
-
-
- 
-
-
-
 
 
 
